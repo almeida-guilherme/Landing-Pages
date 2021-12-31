@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Righteous&family=Sarala:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body{
+    font-size: 100%;
+    background: linear-gradient(to left, #41C7D9,#0F2C30);
+}
+
+/* Aqui é o Header */
+
+#cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+#cabecalhoimagem{
+    width: 10%;
+    border-radius: 78px;
+    float: left;
+}
+
+#cabecalhomenunav{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalhomenu{
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* Aqui é o Main */
+
+#conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid white;
+}
+
+#conteudoprincipal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#conteudoprincipalescrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#conteudoprincipalescritotitulo{
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+#conteudoprincipalescritosubtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+
+#conteudoprincipalescritobotao{
+    background-color: #f1e8e0;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+
+#conteudoprincipalescritobotao:hover{
+    background-color: rgb(129, 129, 129);
+}
+
+#conteudoprincipalimagem{
+   border-radius: 30px;
+}
+
+#conteudosecundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+#conteudosecundariotitulo{
+    border-top: 0.4px solid white;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.conteudosecundarioparagrafo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+
+#rodape{
+    padding: 32px;
+    border-top: 0.4px solid white;
+}
+
+#rodapeimagem{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+
+}
